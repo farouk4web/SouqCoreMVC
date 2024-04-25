@@ -1,0 +1,67 @@
+@model Souq.Models.CartItem
+
+<div class="cartItem mt-30 text-capitalize">
+
+    @if (!Model.Product.AvailableToSale)
+    {
+        <span class="notAvailableAlertMsg " title="This Product Is Not Availabale To Sale">
+            Out Of Stock
+        </span>
+    }
+    <a href="javascript:void(0)" class="remove removeFromCartBtn" title="Remove this Item" data-ItemId="@Model.Id">
+        <i class="lni lni-close"></i>
+    </a>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="cart-img-head">
+                <a class="cart-img" href="/products/details/@Model.ProductId">
+                    <img class="img-responsive" src="@Model.Product.PictureUrl" alt="product image">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="content">
+                <h5>
+                    <a href="/products/details/@Model.ProductId">
+                        @Model.Product.Name
+                    </a>
+                </h5>
+                <p class="amount">
+                    @if (Model.Product.Discount != 0)
+                    {
+                        <span>
+                            <span class="currency">$</span>
+                            @Model.Product.PriceAfterDescount
+                        </span>
+                        <span class="priceBeforeDiscount">@Model.Product.Price</span>
+                    }
+                    else
+                    {
+                        <span>
+                            <span class="currency">$</span>
+                            @Model.Product.Price
+                        </span>
+                    }
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="quantityBtns text-center mt-30">
+                <button class="btn btn-primary addToCartBtn" data-productId="@Model.ProductId" data-action="add">
+                    +
+                </button>
+
+                <b class="quantity btn btn-dark" data-currentquantity="@Model.Quantity">
+                    @Model.Quantity
+                </b>
+
+                <button class="btn btn-primary addToCartBtn" data-productId="@Model.ProductId">
+                    -
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,201 @@
+@using Microsoft.AspNetCore.Identity
+@using Souq.Settings;
+@inject SignInManager<ApplicationUser> _signInManager
+@inject UserManager<ApplicationUser> _userManager
+@inject IWishlistService _wishlistService
+@inject ICategoriesService _categoriesService
+
+
+<!-- Start Header Middle -->
+<div class="header-middle">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-3 col-md-3 col-6">
+                <!-- Start Header Logo -->
+                <a class="navbar-brand" href="/Home/Index">
+                    <img src="~/images/logo/logo.svg" alt="Logo">
+                </a>
+                <!-- End Header Logo -->
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-4">
+                <!-- Start Mega Category Menu -->
+                <div class="mega-category-menu">
+
+                    <span class="cat-button">
+                        <i class="lni lni-menu"></i>
+                        <span class="d-xs-none">All Categories</span>
+                    </span>
+
+                    <ul class="sub-category">
+                        @foreach (var category in _categoriesService.GetAll(1, _categoriesService.NumberOfCategories()))
+                        {
+                            <li>
+                                <a href="/Categories/AllProductsOnCategory?categoryName=@category.Name&page=1">
+                                    @category.Name
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <!-- End Mega Category Menu -->
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 d-xs-none">
+                <!-- Start Main Menu Search -->
+                <div class="main-menu-search">
+                    <!-- navbar search start -->
+                    <div class="navbar-search search-style-5">
+                        <div class="search-input">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="search-btn">
+                            <button><i class="lni lni-search-alt"></i></button>
+                        </div>
+                    </div>
+                    <!-- navbar search Ends -->
+                </div>
+                <!-- End Main Menu Search -->
+            </div>
+
+
+            <div class="col-lg-2 col-md-2 col-2">
+                <div class="middle-right-area">
+                    <div class="navbar-cart">
+
+                        @if (User.IsInRole(RoleName.Owners) || User.IsInRole(RoleName.Admins)
+                        || User.IsInRole(RoleName.Sellers)
+                        || User.IsInRole(RoleName.ShippingStaff))
+                        {
+                            <div class="wishlist">
+                                <a href="/Dashboard/index" title="Dashboard">
+                                    <i class="lni lni-dashboard"></i>
+                                </a>
+                            </div>
+                        }
+
+                        <div class="wishlist">
+                            <a asp-controller="MyDashboard" asp-action="Wishlist">
+                                <i class="lni lni-heart"></i>
+
+                                @if (_signInManager.IsSignedIn(User))
+                                {
+                                    var user = await _userManager.GetUserAsync(User);
+
+                                    <span class="total-items">
+                                        @_wishlistService.GetNumberOfAll(user?.Id)
+                                    </span>
+
+                                }
+                                else
+                                {
+                                    <span class="total-items">
+                                        0
+                                    </span>
+                                }
+                            </a>
+                        </div>
+
+                        <partial name="~/Views/Shared/Navbar/_ShopingCart.cshtml" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- End Header Middle -->
+@*@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> _signInManager
+@inject UserManager<ApplicationUser> _userManager
+@inject IWishlistService _wishlistService
+
+<!-- Start Header Middle -->
+<div class="header-middle">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-3 col-7">
+                <!-- Start Header Logo -->
+                <a class="navbar-brand" href="/Home/Index">
+                    <img src="~/images/logo/logo.svg" alt="Logo">
+                </a>
+                <!-- End Header Logo -->
+            </div>
+            <div class="col-lg-5 col-md-7 d-xs-none">
+                <!-- Start Main Menu Search -->
+                <div class="main-menu-search">
+                    <!-- navbar search start -->
+                    <div class="navbar-search search-style-5">
+                        <div class="search-select">
+                            <div class="select-position">
+                                <select id="select1">
+                                    <option selected>All</option>
+                                    <option value="1">option 01</option>
+                                    <option value="2">option 02</option>
+                                    <option value="3">option 03</option>
+                                    <option value="4">option 04</option>
+                                    <option value="5">option 05</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="search-btn">
+                            <button><i class="lni lni-search-alt"></i></button>
+                        </div>
+                    </div>
+                    <!-- navbar search Ends -->
+                </div>
+                <!-- End Main Menu Search -->
+            </div>
+
+            <div class="col-lg-4 col-md-2 col-5">
+                <div class="middle-right-area">
+                    <div class="nav-hotline">
+                        <i class="lni lni-phone"></i>
+                        <h3>
+                            Hotline: <span>(+100) 123 456 7890</span>
+                        </h3>
+                    </div>
+
+                    <div class="navbar-cart">
+                        <div class="wishlist">
+                            <a asp-controller="MyDashboard" asp-action="Wishlist">
+                                <i class="lni lni-heart"></i>
+
+                                @if (_signInManager.IsSignedIn(User))
+                                {
+                                    var user = await _userManager.GetUserAsync(User);
+
+                                    <span class="total-items">
+                                        @_wishlistService.GetNumberOfAll(user?.Id)
+                                    </span>
+
+                                }
+                                else
+                                {
+                                    <span class="total-items">
+                                        0
+                                    </span>
+                                }
+                            </a>
+                        </div>
+
+                        <partial name="~/Views/Shared/Navbar/_ShopingCart.cshtml" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Header Middle -->*@

@@ -1,0 +1,106 @@
+﻿@model LoginRequest
+@{
+    ViewData["Title"] = "Log in";
+}
+<div class="login">
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">Login</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li><a href="/Account/"><i class="lni lni-user"></i> Account</a></li>
+                        <li>
+                            <a href="/Account/Login">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-12">
+            <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="card my-5 login-form" role="form">
+                <div class="card-body">
+
+                    <div class="title">
+                        <h4>Login Now</h4>
+                        <p>You can login using your social media account or email address.</p>
+                    </div>
+                    <div class="social-login">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <a class="btn facebook-btn" href="javascript:void(0)">
+                                    <i class="lni lni-facebook-filled"></i> Facebook
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <a class="btn twitter-btn" href="javascript:void(0)">
+                                    <i class="lni lni-twitter-original"></i> Twitter
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <a class="btn google-btn" href="javascript:void(0)">
+                                    <i class="lni lni-google"></i> Google
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="or">
+                        <hr />
+                        <span>Or</span>
+                    </div>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="my-3 d-flex flex-wrap justify-content-between bottom-content">
+                        <div class="form-check">
+                            <input asp-for="RememberMe" class="form-check-input width-auto" />
+                            <label asp-for="RememberMe" class="form-check-label">
+                                Remember Me?
+                            </label>
+                        </div>
+
+                        <a asp-action="ForgotPassword">Forgot Password?</a>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-primary m-auto w-100">Log in</button>
+                    </div>
+
+                    <p class="text-center mt-3">
+                        Don't have an account?
+                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register Here</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

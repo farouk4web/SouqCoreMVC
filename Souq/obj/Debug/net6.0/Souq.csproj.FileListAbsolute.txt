@@ -1,0 +1,355 @@
+H:\core\Souq\Souq\bin\Debug\net6.0\appsettings.Development.json
+H:\core\Souq\Souq\bin\Debug\net6.0\appsettings.json
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.staticwebassets.runtime.json
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.exe
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.deps.json
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.runtimeconfig.json
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Souq.pdb
+H:\core\Souq\Souq\bin\Debug\net6.0\Humanizer.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Drawing.Common.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Runtime.Caching.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Security.Permissions.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\System.Windows.Extensions.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+H:\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.AssemblyReference.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.GeneratedMSBuildEditorConfig.editorconfig
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfoInputs.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfo.cs
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CoreCompileInputs.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.MvcApplicationPartsAssemblyInfo.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cs
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.build.Souq.props
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Souq.props
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Souq.props
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.pack.json
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.build.json
+H:\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.development.json
+H:\core\Souq\Souq\obj\Debug\net6.0\scopedcss\bundle\Souq.styles.css
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CopyComplete
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.dll
+H:\core\Souq\Souq\obj\Debug\net6.0\refint\Souq.dll
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.pdb
+H:\core\Souq\Souq\obj\Debug\net6.0\Souq.genruntimeconfig.cache
+H:\core\Souq\Souq\obj\Debug\net6.0\ref\Souq.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\appsettings.Development.json
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\appsettings.json
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.staticwebassets.runtime.json
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.exe
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.deps.json
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.runtimeconfig.json
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Souq.pdb
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Humanizer.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Drawing.Common.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Runtime.Caching.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Security.Permissions.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\System.Windows.Extensions.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+J:\Projects\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.AssemblyReference.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfoInputs.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfo.cs
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CoreCompileInputs.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.MvcApplicationPartsAssemblyInfo.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cs
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.build.Souq.props
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Souq.props
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Souq.props
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.pack.json
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.build.json
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.development.json
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\scopedcss\bundle\Souq.styles.css
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CopyComplete
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.dll
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\refint\Souq.dll
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.pdb
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\Souq.genruntimeconfig.cache
+J:\Projects\core\Souq\Souq\obj\Debug\net6.0\ref\Souq.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\appsettings.Development.json
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\appsettings.json
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.staticwebassets.runtime.json
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.exe
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.deps.json
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.runtimeconfig.json
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Humanizer.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\core\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.AssemblyReference.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.GeneratedMSBuildEditorConfig.editorconfig
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfoInputs.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfo.cs
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CoreCompileInputs.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.MvcApplicationPartsAssemblyInfo.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cs
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.build.json
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.development.json
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.build.Souq.props
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Souq.props
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Souq.props
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\staticwebassets.pack.json
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\scopedcss\bundle\Souq.styles.css
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CopyComplete
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.dll
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\refint\Souq.dll
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\Souq.genruntimeconfig.cache
+D:\_personal\core2024\core\Souq\Souq\obj\Debug\net6.0\ref\Souq.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\appsettings.Development.json
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\appsettings.json
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.staticwebassets.runtime.json
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.exe
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.deps.json
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.runtimeconfig.json
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Humanizer.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.csproj.AssemblyReference.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.GeneratedMSBuildEditorConfig.editorconfig
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfoInputs.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfo.cs
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CoreCompileInputs.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.MvcApplicationPartsAssemblyInfo.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cs
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets.build.json
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets.development.json
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.build.Souq.props
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Souq.props
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Souq.props
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\staticwebassets.pack.json
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\scopedcss\bundle\Souq.styles.css
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CopyComplete
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\refint\Souq.dll
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\Souq.genruntimeconfig.cache
+D:\_personal\core2024\core\New folder\Souq\Souq\obj\Debug\net6.0\ref\Souq.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\appsettings.Development.json
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\appsettings.json
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.staticwebassets.runtime.json
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.exe
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.deps.json
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.runtimeconfig.json
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Humanizer.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\_personal\core2024\MVC\Souq\Souq\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.csproj.AssemblyReference.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.GeneratedMSBuildEditorConfig.editorconfig
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfoInputs.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.AssemblyInfo.cs
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CoreCompileInputs.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.MvcApplicationPartsAssemblyInfo.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.RazorAssemblyInfo.cs
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets.build.json
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets.development.json
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.build.Souq.props
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Souq.props
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Souq.props
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\staticwebassets.pack.json
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\scopedcss\bundle\Souq.styles.css
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.csproj.CopyComplete
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.dll
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\refint\Souq.dll
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.pdb
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\Souq.genruntimeconfig.cache
+D:\_personal\core2024\MVC\Souq\Souq\obj\Debug\net6.0\ref\Souq.dll

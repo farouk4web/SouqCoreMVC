@@ -1,0 +1,319 @@
+﻿@model Souq.ViewModels.CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+
+    var availalbeProductcs = Model.CurrentUserShoppingCart.CartItems.Where(i =>
+    i.Product.AvailableToSale == true);
+
+    var unAvailalbeProductcs = Model.CurrentUserShoppingCart.CartItems.Where(i =>
+    i.Product.AvailableToSale == false);
+
+    decimal total = 0;
+    foreach (var item in availalbeProductcs)
+    {
+        total += item.Quantity * item.Product.Price;
+    }
+}
+<div class="checkout">
+
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">@ViewBag.Title</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li>Available Products ( @availalbeProductcs.Count() )</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <div class="row mt-30">
+        <div class="col-sm-7">
+            <form action="/orders/Checkout" method="post" class="mb-30">
+
+                <div class="perssonalData">
+                    <h4>Personal Data</h4>
+                    <hr>
+
+                    <div class="form-group">
+                        @Html.ValidationSummary(true)
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input asp-for="Order.FirstName" placeholder="First Name" class="form-control" />
+                                <span asp-validation-for="Order.FirstName"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input asp-for="Order.LastName" placeholder="Last Name" class="form-control" />
+                                <span asp-validation-for="Order.LastName"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input asp-for="Order.Phone" placeholder="Mobile Phone" class="form-control" />
+                                <span asp-validation-for="Order.Phone"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="adress">
+                        @if (Model.Addresses.Count() != 0)
+                        {
+                            <div class="form-group">
+                                <p class="addressItem lead new active">
+                                    <input type="radio" asp-for="Order.AddressId" value="@Guid.Empty" id="@Guid.Empty" class="new" hidden checked />
+                                    <label for="@Guid.Empty" class="active new">Create New Address</label>
+                                </p>
+
+                                @foreach (var addressItem in Model.Addresses)
+                                {
+                                    <div class="addressItem">
+                                        <input type="radio" asp-for="Order.AddressId" value="@addressItem.Id" id="@addressItem.Id" hidden />
+                                        
+                                        <label for="@addressItem.Id"
+                                               data-country="@addressItem.Country"
+                                               data-state="@addressItem.State"
+                                               data-city="@addressItem.City"
+                                               data-street="@addressItem.Street"
+                                               data-moreAboutAddress="@addressItem.MoreAboutAddress">
+
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <b>Counrty</b>: <span>@addressItem.Country</span>
+                                                </div>
+                                        
+                                                <div class="col-sm-6">
+                                                    <b>state</b>: <span>@addressItem.State</span>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <b>City</b>: <span>@addressItem.City</span>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <b>street</b>: <span>@addressItem.Street</span>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <b>MoreAboutAddress</b>: <span>@addressItem.MoreAboutAddress</span>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+
+                                }
+
+                                <span asp-validation-for="Order.AddressId"></span>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                <p>You Doesnot have any addresses yet You need to create new one</p>
+                            </div>
+                        }
+
+                        <div class="newAddressForm">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input asp-for="NewAddress.Country" placeholder="Country" class="form-control" />
+                                        <span asp-validation-for="NewAddress.Country"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input asp-for="NewAddress.State" placeholder="State" class="form-control" />
+                                        <span asp-validation-for="NewAddress.State"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input asp-for="NewAddress.City" placeholder="City" class="form-control" />
+                                        <span asp-validation-for="NewAddress.City"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input asp-for="NewAddress.Street" placeholder="Street" class="form-control" />
+                                        <span asp-validation-for="NewAddress.Street"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea asp-for="NewAddress.MoreAboutAddress" class="form-control" placeholder="More About Address..... you can detail the address"></textarea>
+                                        <span asp-validation-for="NewAddress.MoreAboutAddress"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                    @foreach (var method in Model.PaymentMethods)
+                    {
+                        <div class="col-sm-6">
+                            <input type="radio" asp-for="Order.PaymentMethodId" id="@method.Id" value="@method.Id" />
+                            <label asp-for="@method.Id" for="@method.Id">@method.Name</label>
+                        </div>
+                    }
+                    </div>
+                    <span asp-validation-for=" Order.PaymentMethodId"></span>
+                </div>
+
+                <div class="form-group text-center">
+                    @Html.AntiForgeryToken()
+                    <input type="submit" value="Create Order" class="btn btn-primary" />
+                </div>
+
+            </form>
+        </div>
+
+        <div class="col-sm-5">
+            <div class="cartItemsDetails">
+                <h4>Products You will Order It</h4>
+                <hr />
+
+                <div class="shopppingCart">
+                    @foreach (var item in availalbeProductcs)
+                    {
+                        <div class="cartItem text-capitalize mt-30 mb-30">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="cart-img-head">
+                                        <a class="cart-img" href="/products/details/@item.ProductId">
+                                            <img class="img-responsive" src="@item.Product.PictureUrl" alt="product image">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="content">
+                                        <h5>
+                                            <a href="/products/details/@item.ProductId">
+                                                @item.Product.Name
+                                            </a>
+                                        </h5>
+                                        <p class="amount">
+                                            <span>$@item.Product.Price</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <b class="quantity btn btn-dark" data-currentquantity="@item.Quantity">
+                                        @item.Quantity
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="totalPrice">
+                        <p>
+                            <b>Total: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="total">@total</span>
+                            </span>
+                        </p>
+                        <p>
+                            <b>ShippingFee: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="shippingAmount">@Model.ShippingFee</span>
+                            </span>
+                        </p>
+                        <p>
+                            <b>GrandTotal: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="grandTotal">@(total + Model.ShippingFee)</span>
+                            </span>
+                        </p>
+                    </div>
+
+                    @if (unAvailalbeProductcs.Count() > 0)
+                    {
+                        <div class="alert alert-info mt-30">
+                            <p>
+                                this products are
+                                <span class="notAvailableAlertMsg " title="This Product Is Not Availabale To Sale">
+                                    Out Of Stock
+                                </span>
+                                and we will exclude thim from Your order, but you still find thim on Your Cart
+                            </p>
+                        </div>
+
+                        @foreach (var item in unAvailalbeProductcs)
+                        {
+                            <div class="cartItem text-capitalize mt-30">
+
+                                @if (!item.Product.AvailableToSale)
+                                {
+                                    <span class="notAvailableAlertMsg " title="This Product Is Not Availabale To Sale">
+                                        Out Of Stock
+                                    </span>
+                                }
+
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="cart-img-head">
+                                            <a class="cart-img" href="/products/details/@item.ProductId">
+                                                <img class="img-responsive" src="@item.Product.PictureUrl" alt="product image">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="content">
+                                            <h5>
+                                                <a href="/products/details/@item.ProductId">
+                                                    @item.Product.Name
+                                                </a>
+                                            </h5>
+                                            <p class="amount">
+                                                <span>$@item.Product.Price</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <b class="quantity btn btn-dark" data-currentquantity="@item.Quantity">
+                                            @item.Quantity
+                                        </b>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="~/js/checkout.js" asp-append-version="true"></script>
+    <partial name="_ValidationScriptsPartial" />
+}

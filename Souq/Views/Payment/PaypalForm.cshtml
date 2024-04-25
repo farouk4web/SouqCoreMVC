@@ -1,0 +1,71 @@
+﻿@model Souq.ViewModels.PaypalFormViewModel
+@{
+    ViewData["Title"] = "Pay With PayPal";
+}
+<h1>@Url.Action()</h1>
+<h1>@Url.Action("CreatePaypalOrder")?orderId=855</h1>
+
+<button class="btn btn-primary" id="dd">Send</button>
+
+<div class="text-center">
+    <div id="paypal-button-container"></div>
+</div>
+
+@section Scripts {
+    <script src="https://www.paypal.com/sdk/js?client-id=@Model.ClientId"></script>
+    <script>
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: (data, actions) => {
+                return fetch("@Url.Action("CreatePaypalOrder")?orderId=@Model.OrderId", {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                    .catch(error => console.log(error.message));
+            },
+            onApprove: (data, actions) => {
+                return fetch(`@Url.Action("PayWithPaypal")?paypalOrderId=${data.orderID}`, {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    window.location.href = "@Url.Action("Success")";
+                }).catch(error => console.log(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#dd").on("click", function () {
+                $.ajax({
+                    url: "/api/Payment/CreatePaypalOrder",
+                    type: 'post',
+                    contentType: "application/json",
+                    data:
+                        JSON.stringify({
+                            orderId: "fb392e75-c361-40a2-ca6a-08db775c1b50"
+                        })
+                    ,
+                    success: function (item) {
+                        alert(item)
+                    },
+                    error: function (e) {
+                        alert(e)
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,201 @@
+﻿@using Souq.Settings;
+@inject UserManager<ApplicationUser> _userManager
+@inject IWishlistService _wishlistService
+@inject ICartService _cartService
+
+@model Souq.ViewModels.ProductDetailsViewModel
+@{
+    ViewData["Title"] = Model.Product.Name;
+
+    // conigure wishlist Btn
+    var userId = _userManager.GetUserId(User);
+    var wishlistBtnAction = "add";
+    var wishlistBtnIcon = "lni-heart";
+    Wishlist item = new() { ProductId = Model.Product.Id, UserId = userId };
+
+    if (_wishlistService.IsSignedBeforeInMyWishlist(item))
+    {
+        wishlistBtnAction = "remove";
+        wishlistBtnIcon = "lni-heart-filled";
+    }
+}
+<div class="productDetails">
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">@Model.Product.Name</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li><a href="/Home/"><i class="lni lni-home"></i> Home</a></li>
+                        <li>
+                            <a href="/Categories/AllProductsOnCategory?categoryName=@Model.Product.Category.Name&page=1">@Model.Product.Category.Name</a>
+                        </li>
+                        <li>@Model.Product.Name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    <!-- Start Item Details -->
+    <section class="item-details section">
+        <div class="container">
+            <div class="top-area">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="product-images">
+                            <main id="gallery">
+                                <div class="main-img">
+                                    <img src="@Model.Product.PictureUrl" id="current" class="img" alt="Product Picture">
+                                </div>
+                                <div class="images">
+                                    @*
+                                    if you convert it to use multible pictures
+
+                                    <img src="@Model.Image1Url" class="img" alt="#">
+                                    <img src="@Model.Image2Url" class="img" alt="#">
+                                    <img src="@Model.Image3Url" class="img" alt="#"> *@
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="product-info">
+                            <h2 class="title">@Model.Product.Name</h2>
+                            <p class="category">
+                                <i class="lni lni-tag"></i>
+                                <a href="/Categories/AllProductsOnCategory?categoryName=@Model.Product.Category.Name&page=1">
+                                    @Model.Product.Category.Name
+                                </a>
+                            </p>
+                            @if (Model.Product.Discount != 0)
+                            {
+                                <h3 class="price">
+                                    <span class="currency">$</span>
+                                    @Model.Product.PriceAfterDescount
+                                    <span class="priceBeforeDiscount">@Model.Product.Price</span>
+                                </h3>
+                            }
+                            else
+                            {
+                                <h3 class="price">
+                                    <span class="currency">$</span>
+                                    @Model.Product.Price
+                                </h3>
+                            }
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="form-group">
+                                        <div class="wish-button">
+                                            <button class="btn wishlistBtn" data-action="@wishlistBtnAction"
+                                                    data-productId="@Model.Product.Id">
+                                                <i class="lni @wishlistBtnIcon"></i>
+                                                Wishlist
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4">
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="form-group">
+                                        <select class="form-control" id="cartItemQuantity">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bottom-content">
+                                <div class="row align-items-end">
+                                    <div class="col-12">
+                                        @if (!Model.Product.AvailableToSale)
+                                        {
+                                            <span style="width:100%" class="notAvailableAlertMsg"
+                                                  title="This Product Is Not Availabale To Sale">
+                                                Out Of Stock
+                                            </span>
+                                        }
+                                        <div class="button cart-button">
+                                            <button class="btn addToCartBtn" data-productId="@Model.Product.Id"
+                                                    style="width: 100%;">
+                                                <i class="lni lni-cart"></i> Add to Cart
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @if (User.IsInRole(RoleName.Owners) || User.IsInRole(RoleName.Admins) || User.IsInRole(RoleName.Sellers))
+                            {
+                                <div class="bottom-content">
+                                    <h2 class="title">For Staff</h2>
+                                    <div class="row">
+                                        <a href="/Products/Update/@Model.Product.Id" class="btn btn-dark col-sm-4">
+                                            <i class="lni lni-pencil"></i> Update
+                                        </a>
+                                        <button id="deleteProductBtn" class="btn btn-danger col-sm-4 offset-4">
+                                            <i class="lni lni-trash-can"></i> Delete
+                                        </button>
+
+                                        <form action="/products/delete" method="post" id="deleteProductForm" hidden>
+                                            @Html.AntiForgeryToken()
+                                            @Html.HiddenFor(p => p.Product.Id)
+                                        </form>
+                                    </div>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" product-details-info">
+                <div class="single-block">
+                    @Model.Product.Details
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Item Details -->
+
+
+    <div class="similarProducts">
+        <h2>Similar Products</h2>
+
+        @if (Model.SimilarProducts.Count() == 0)
+        {
+            <p class="alert alert-info text-center">
+                <b>Sorry, we dont find any Similar Products Yet</b>
+            </p>
+        }
+
+        <div class="row">
+            @foreach (var product in Model.SimilarProducts)
+            {
+                <partial name="_ProductPartial" model="product" />
+            }
+        </div>
+    </div>
+
+</div>
+
+@section scripts {
+    <script src="~/js/productDetails.js"></script>
+    <script src="~/js/wishlistActions.js"></script>
+}

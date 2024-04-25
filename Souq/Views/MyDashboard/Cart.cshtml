@@ -1,0 +1,79 @@
+﻿@model Souq.Models.Cart
+@{
+    ViewData["Title"] = "My Cart";
+}
+<div class="shopppingCart">
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">My Cart</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li>
+                            ( <b>@Model.CartItems.Count()</b> )
+                            <span> Product</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    @if (Model.CartItems.Count() is 0)
+    {
+        <div class="alert alert-danger text-center mt-20">
+            <p>
+                <b>Sorry, we dont find any Products on Your Cart</b>
+            </p>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-sm-8">
+                @foreach (var item in Model.CartItems)
+                {
+                    <partial name="_CartItemPartial" model="item" />
+                }
+            </div>
+
+            <div class="col-sm-4">
+                <div class="details mt-30">
+                    <h4>Details</h4>
+                    <hr>
+                    <div class="totalPrice">
+                        <p>
+                            <b>Total: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="total">@Model.Total</span>
+                            </span>
+                        </p>
+                        <p>
+                            <b>ShippingFee: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="shippingFee">@ViewBag.shippingFee</span>
+                            </span>
+                        </p>
+                        <p>
+                            <b>GrandTotal: </b>
+                            <span class="price">
+                                <span class="currency">$</span><span class="grandTotal">@(Model.Total + ViewBag.shippingFee)</span>
+                            </span>
+                        </p>
+                    </div>
+
+                    <a href="/Orders/Checkout" class="btn btn-dark mt-40" style="width: 100%;">
+                        Checkout
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Souq Paypal Payment</title>
+</head>
+
+<body>
+    <h1>Paypal Payment</h1>
+
+    <div class="text-center">
+        <div id="paypal-button-container"></div>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AXGqq7BmDsGW0S1McUaUEur-JnMFZkk2cp1vwTMhOUK3uaNGVXH-5XRbvlqO3oAO0-P7Pm51iCSaN_W8"></script>
+
+    <script>
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: (data, actions) => {
+                return fetch("/order", {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                .catch(error => alert(error.message));
+            },
+            onApprove: (data, actions) => {
+                return fetch("/Capture?orderId=data.orderID", {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    window.location.href = "/Success";
+                }).catch(error => alert(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script>
+
+</body>
+
+</html>

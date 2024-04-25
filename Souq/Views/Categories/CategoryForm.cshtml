@@ -1,0 +1,26 @@
+﻿@model Souq.Models.Category
+@{
+    ViewData["Title"] = Model.Id == Guid.Empty ? "New Category" : "Update " + Model.Name;
+    Layout = "/Views/Dashboard/_DashboardLayout.cshtml";
+}
+<div class="categoryForm">
+    <h2>@ViewData["Title"]</h2>
+
+    <form action="/Categories/Save" method="post">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new {@class= "form-control" })
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+
+        <div class="form-group text-center">
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Id)
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

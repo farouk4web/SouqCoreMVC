@@ -1,0 +1,42 @@
+﻿@inject ICategoriesService _categoriesService
+@model IEnumerable<Souq.Models.Product>
+@{
+    ViewData["Title"] = "Products";
+    var categoryName = Context.Request.Query["categoryName"];
+}
+<div class="products">
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">@categoryName</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li>
+                            ( <b>@_categoriesService.NumberOfProductsOnCategory(categoryName)</b> )
+                            <span> Product</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    @if (Model.Count() is 0)
+    {
+        <p class="alert alert-danger text-center mt-20">
+            <b>Sorry, we dont find any Products on Our Database</b>
+        </p>
+    }
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <partial name="_ProductPartial" model="product" />
+        }
+    </div>
+</div>

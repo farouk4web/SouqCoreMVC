@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Souq</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.svg" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/lineIcons/css/lineIcons.3.0.css" />
+
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    @* <link rel="stylesheet" href="~/Souq.styles.css" asp-append-version="true" /> *@
+    @* <link rel="stylesheet" href="~/css/glightbox.min.css" /> *@
+</head>
+
+<body class="dashboard">
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+
+    <partial name="~/Views/Shared/Navbar/_NavbarPartial.cshtml" />
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 menu">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <h2>
+                            <i class="lni lni-dashboard"></i>
+                            Dashboard
+                        </h2>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Dashboard/Index/" class="nav-link" aria-current="page">
+                            <i class="lni lni-stats-up me-2"></i>
+                            Statistics
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Orders/Index/" class="nav-link">
+                            <i class="lni lni-layers me-2"></i>
+                            Orders
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Users/Index/" class="nav-link">
+                            <i class="lni lni-users me-2"></i>
+                            Users
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Categories/Index/" class="nav-link">
+                            <i class="lni lni-grid-alt me-2"></i>
+                            Categories
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Categories/New/" class="nav-link">
+                            <i class="lni lni-write me-2"></i>
+                            New Category
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/Products/New/" class="nav-link">
+                            <i class="lni lni-keyboard me-2"></i>
+                            New Product
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-9">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <partial name="_FooterPartial" />
+
+
+    <!-- Start Go To Up Button -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+    <!-- End Go To Up Button -->
+    <!-- start Notification tone -->
+    <audio id="notificationTone">
+        <source src="~/sounds/beep.mp3" type="audio/mp3">
+    </audio>
+    <!-- end Notification tone -->
+    @* <script src="~/js/glightbox.min.js"></script> *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootbox/bootbox.js"></script>
+
+    <script src="~/js/cartActions.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

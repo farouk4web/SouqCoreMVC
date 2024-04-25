@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Souq.Models.Wishlist>
+@{
+    ViewData["Title"] = "My Wishlist";
+}
+<div class="wishlist">
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">My Wishlist</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li>
+                            ( <b>@Model.Count()</b> )
+                            <span> Product</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    @if (Model.Count() is 0)
+    {
+        <p class="alert alert-danger text-center mt-20">
+            <b>Sorry, we dont find any Products on Your Wishlist</b>
+        </p>
+    }
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <partial name="_ProductPartial" model="item.Product" />
+        }
+    </div>
+</div>

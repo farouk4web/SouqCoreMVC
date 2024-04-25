@@ -1,0 +1,19 @@
+solve decimal cell problem
+
+remove one item from ProductInStore after order was paid
+
+create js function change currency 
+
+change the cart item element in js code
+
+Create Authanticate Service with shared methods
+
+order details page
+order filters page
+
+redesign Dashboard Controller api
+Details of product input
+
+setting {paypal, paymob} services and Payment Controller 
+Create EndPoint To Update Payment Method of Order
+Add GetPaymentMethods endPoint on Payment Controller

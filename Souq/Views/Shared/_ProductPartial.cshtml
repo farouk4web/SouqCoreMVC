@@ -1,0 +1,59 @@
+﻿@model Souq.Models.Product
+
+<div class="col-lg-3 col-md-6 col-12">
+    <!-- Start Single Product -->
+    <div class="single-product">
+        <div class="product-image">
+            <img src="@Model.PictureUrl" alt="ProductPicture">
+            @if (Model.Discount != 0)
+            {
+                <span class="sale-tag">@Model.Discount%</span>
+            }
+
+            <div class="button">
+                <a href="/Products/Details/@Model.Id" class="btn">
+                    <i class="lni lni-eye"></i> Visit
+                </a>
+            </div>
+        </div>
+
+        <div class="product-info">
+            <span class="category">@Model.Category.Name</span>
+
+            <h4 class="title">
+                <a href="/Products/Details/@Model.Id">@Model.Name</a>
+            </h4>
+
+            <ul class="review">
+                @for (int i = 0; i <= Model.StarsCountAverage; i++)
+                {
+                    <li><i class="lni lni-star-filled"></i></li>
+                }
+                @*<li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star"></i></li>*@
+                <li><span>@Model.StarsCountAverage Review(s)</span></li>
+            </ul>
+
+            <div class="price">
+                @if (Model.Discount != 0)
+                {
+                    <span>
+                        <span class="currency">$</span>
+                        @Model.PriceAfterDescount
+                    </span>
+                    <span class="discount-price">@Model.Price</span>
+                }
+                else
+                {
+                    <span>
+                        <span class="currency">$</span>
+                        @Model.Price
+                    </span>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- End Single Product -->
+</div>

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Souq.Models.Product>
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="products">
+    <h2>All Products We Have</h2>
+
+    @if (Model.Count() is 0)
+    {
+        <p class="alert alert-danger text-center">
+            <b>Sorry, we dont find any Products on Our Database</b>
+        </p>
+    }
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <partial name="_ProductPartial" model="product" />
+        }
+    </div>
+</div>

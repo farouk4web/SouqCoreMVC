@@ -1,0 +1,239 @@
+﻿@model Souq.Models.Order
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="orderDetails">
+    <div class="row">
+
+        <div class="col-sm-7">
+            @foreach (var item in Model.OrderItems)
+            {
+                <div class="cartItem mt-30 text-capitalize">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="cart-img-head">
+                                <a class="cart-img" href="/products/details/@item.ProductId">
+                                    <img class="img-responsive" src="@item.Product.PictureUrl" alt="product image">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="content">
+                                <h5>
+                                    <a href="/products/details/@item.ProductId">
+                                        @item.Product.Name
+                                    </a>
+                                </h5>
+                                <p class="amount">
+                                    @if (item.Product.Discount != 0)
+                                    {
+                                        <span>
+                                            <span class="currency">$</span>
+                                            @item.Product.PriceAfterDescount
+                                        </span>
+                                        <span class="priceBeforeDiscount">@item.Product.Price</span>
+                                    }
+                                    else
+                                    {
+                                        <span>
+                                            <span class="currency">$</span>
+                                            @item.Product.Price
+                                        </span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <div class="quantityBtns text-center mt-30">
+                                <b class="quantity btn btn-dark" data-currentquantity="@item.Quantity">
+                                    @item.Quantity
+                                </b>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="col-sm-5">
+
+            <div class="orderLevels">
+                <h4>Order Levels</h4>
+
+                <div class="item">
+                    @if (Model.IsPaidOff)
+                    {
+                        <b class="btn btn-success"></b>
+                        <span class="btn btn-success">Order Payment</span>
+                    }
+                    else
+                    {
+                        <b class="btn btn-warning"></b>
+                        <span class="btn btn-warning">Order Payment</span>
+                    }
+                </div>
+
+                <div class="item">
+                    @if (Model.IsConfirmed)
+                    {
+                        <b class="btn btn-success"></b>
+                        <span class="btn btn-success">Order Confirmation</span>
+                    }
+                    else
+                    {
+                        <b class="btn btn-warning"></b>
+                        <span class="btn btn-warning">Order Confirmation</span>
+                    }
+                </div>
+
+                <div class="item">
+                    @if (Model.IsShipping)
+                    {
+                        <b class="btn btn-success"></b>
+                        <span class="btn btn-success">order Is Shipping</span>
+                    }
+                    else
+                    {
+                        <b class="btn btn-warning"></b>
+                        <span class="btn btn-warning">Shipping Order</span>
+                    }
+                </div>
+
+                <div class="item">
+                    @if (Model.IsDelivered)
+                    {
+                        <b class="btn btn-success"></b>
+                        <span class="btn btn-success">Order Delivery</span>
+                    }
+                    else
+                    {
+                        <b class="btn btn-warning"></b>
+                        <span class="btn btn-warning">Order Delivery</span>
+                    }
+                </div>
+
+            </div>
+
+            <br />
+
+            <div class="details">
+
+                <div class="item">
+                    <b> payment Method: </b>
+                    <span>@Model.PaymentMethod.Name</span>
+                </div>
+
+
+                <div class="item">
+                    <b> ordered To: </b>
+                    <span class="text-capitalize">@Model.FirstName @Model.LastName</span>
+                </div>
+
+                <div class="item">
+                    <b> odered At: </b>
+                    <span>@Model.DateOfCreate</span>
+                </div>
+
+                <div class="item">
+                    <b> phone: </b>
+                    <span>@Model.Phone</span>
+                </div>
+
+                <div class="item">
+                    <b> country: </b>
+                    <span>@Model.Address.Country</span>
+                </div>
+
+                <div class="item">
+                    <b> Region: </b>
+                    <span>@Model.Address.State</span>
+                </div>
+
+                <div class="item">
+                    <b> city: </b>
+                    <span>@Model.Address.City</span>
+                </div>
+
+                <div class="item">
+                    <b> street: </b>
+                    <span>@Model.Address.Street</span>
+                </div>
+
+                <div class="item">
+                    <b>More About Address: </b>
+                    <span>@Model.Address.MoreAboutAddress</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cancelOrder">
+        @if (Model.IsDelivered || Model.IsPaidOff)
+        {
+            <div class="alert alert-info">
+                <p>
+                    <b>CancelOrder</b>
+                    You cant cancel the order
+                </p>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info">
+                <p>
+                    <b class="d-block">Cancelation Order</b>
+                    You can cancel the order because you are the owner
+                </p>
+
+                <button type="button" class="btn btn-danger" id="js_remove_order" data-order_id="@Model.Id">
+                    Cancel Order
+                </button>
+            </div>
+
+            <form action="/Orders/Cancel/" method="post" id="cancel_order_form" hidden>
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="id" value="@Model.Id" />
+            </form>
+        }
+    </div>
+
+    <div class="statistics">
+        <p>
+            <b>Total:</b>
+            <span class="price">
+                <span>@Model.Total</span>
+                <b class="currency">EGB</b>
+            </span>
+        </p>
+
+        <p>
+            <b>Shipping Fee:</b>
+            <span class="price">
+                <span>@Model.ShippingFee</span>
+                <b class="currency">EGB</b>
+            </span>
+        </p>
+
+        <p>
+            <b>Payment Method Fee:</b>
+            <span class="price">
+                <span>@Model.PaymentMethod.Fee</span>
+                <b class="currency">EGB</b>
+            </span>
+        </p>
+
+        <p>
+            <b>Grand Total:</b>
+            <span class="price">
+                <span>@Model.GrandTotal</span>
+                <b class="currency">EGB</b>
+            </span>
+        </p>
+    </div>
+
+</div>

@@ -1,0 +1,122 @@
+@inject SignInManager<ApplicationUser> _signInManager
+@inject UserManager<ApplicationUser> _userManager
+@inject ICartService _cartService
+
+@if (_signInManager.IsSignedIn(User))
+{
+    var user = await _userManager.GetUserAsync(User);
+    var shoppingCart = _cartService.GetCurrentUserCart(user?.Id);
+
+    <div class="cart-items">
+        <a href="javascript:void(0)" class="main-btn">
+            <i class="lni lni-cart"></i>
+            <span class="total-items cartItemsCount" id="cartItemsNumbers">@shoppingCart.CartItems.Count()</span>
+        </a>
+        <!-- Shopping Item -->
+        <div class="shopping-item">
+            <div class="dropdown-cart-header">
+                <span>
+                    <b class="cartItemsCount">@shoppingCart.CartItems.Count()</b>
+                    Items
+                </span>
+                <a href="/MyDashboard/Cart">View Cart</a>
+            </div>
+            <ul class="shopping-list">
+                @if (shoppingCart.CartItems.Count() == 0)
+                {
+                    <li class="cartMsg">
+                        "Search And Sell Products"
+                    </li>
+                }
+
+                @foreach (var item in shoppingCart.CartItems)
+                {
+                    <li class="item" data-itemId="@item.Id">
+                        <a href="javascript:void(0)" class="remove removeFromCartBtn" data-itemId="@item.Id"
+                           title="Remove this item">
+                            <i class="lni lni-close"></i>
+                        </a>
+                        <div class="cart-img-head">
+                            <a class="cart-img" href="/products/details/@item.ProductId">
+                                <img src="@item.Product.PictureUrl" alt="product image">
+                            </a>
+                        </div>
+
+                        <div class="content">
+                            <h4>
+                                <a href="/products/details/@item.ProductId">
+                                    @item.Product.Name
+                                </a>
+                            </h4>
+                            <span class="amount">
+                                @if (item.Product.Discount != 0)
+                                {
+                                    <span>
+                                        <span class="currency">$</span>
+                                        @item.Product.PriceAfterDescount
+                                    </span>
+                                    <span class="priceBeforeDiscount">@item.Product.Price</span>
+                                }
+                                else
+                                {
+                                    <span>
+                                        <span class="currency">$</span>
+                                        @item.Product.Price
+                                    </span>
+                                }
+                            </span>
+
+                            <p class="quantity">
+                                ( @item.Quantity ) Item
+                            </p>
+
+                            @if (!item.Product.AvailableToSale)
+                            {
+                                <span class="notAvailableAlertMsg " title="This Product Is Not Availabale To Sale">
+                                    Out Of Stock
+                                </span>
+                            }
+                        </div>
+                    </li>
+                }
+
+            </ul>
+            <div class="bottom">
+
+                @* <div class="total">
+            <span>Total</span>
+            <span class="total-amount">
+            @shoppingCart.Total
+            </span>
+            </div> *@
+
+                <div class="button">
+                    <a href="/Orders/Checkout" class="btn animate">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="cart-items">
+        <a href="javascript:void(0)" class="main-btn">
+            <i class="lni lni-cart"></i>
+            <span class="total-items">0</span>
+        </a>
+        <!-- Shopping Item -->
+        <div class="shopping-item">
+            <div class="dropdown-cart-header">
+                <span>0 Items</span>
+                <a href="/MyDashboard/Cart">View Cart</a>
+            </div>
+            <ul class="shopping-list">
+                <li class="cartMsg">
+                    "You Need To Sign in"
+                </li>
+            </ul>
+
+        </div>
+    </div>
+}
+<!--/ End Shopping Item -->

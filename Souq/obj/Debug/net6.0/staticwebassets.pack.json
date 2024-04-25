@@ -1,0 +1,1073 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\17ae4d78dc374896b00e8883033ed0a0.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\17ae4d78dc374896b00e8883033ed0a0.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\2d2daddec5c64ec28fda94499bee27b4.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\2d2daddec5c64ec28fda94499bee27b4.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\340573f475f04cd78d0902c8793431b8.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\340573f475f04cd78d0902c8793431b8.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\a83a18e774e84276a36e3c4b32f01f58.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\a83a18e774e84276a36e3c4b32f01f58.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\eb79423b13ca4cbf96665cae370711b0.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\eb79423b13ca4cbf96665cae370711b0.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\f896983f5b7b46ee8ac12d12a0eac114.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\f896983f5b7b46ee8ac12d12a0eac114.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Products\\product.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\product.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\Uploads\\Users\\user.png",
+      "PackagePath": "staticwebassets\\Uploads\\Users\\user.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\banner\\banner-1-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-1-bg.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\banner\\banner-2-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-2-bg.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\favicon.svg",
+      "PackagePath": "staticwebassets\\images\\favicon.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\footer\\credit-cards-footer.png",
+      "PackagePath": "staticwebassets\\images\\footer\\credit-cards-footer.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\header\\cart-items\\item1.jpg",
+      "PackagePath": "staticwebassets\\images\\header\\cart-items\\item1.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\header\\cart-items\\item2.jpg",
+      "PackagePath": "staticwebassets\\images\\header\\cart-items\\item2.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\hero\\slider-bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\hero\\slider-bg1.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\hero\\slider-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\hero\\slider-bg2.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\hero\\slider-bnr.jpg",
+      "PackagePath": "staticwebassets\\images\\hero\\slider-bnr.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\hero\\small-banner-bg.png",
+      "PackagePath": "staticwebassets\\images\\hero\\small-banner-bg.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\logo\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\logo.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\logo\\white-logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo\\white-logo.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\product-details\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\01.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\product-details\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\02.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\product-details\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\03.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\product-details\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\04.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\product-details\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\05.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-4.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-5.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-6.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-7.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\images\\products\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-8.jpg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\cartActions.js",
+      "PackagePath": "staticwebassets\\js\\cartActions.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\js\\checkout.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\orderActions.js",
+      "PackagePath": "staticwebassets\\js\\orderActions.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\productDetails.js",
+      "PackagePath": "staticwebassets\\js\\productDetails.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\js\\wishlistActions.js",
+      "PackagePath": "staticwebassets\\js\\wishlistActions.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootbox\\bootbox.js",
+      "PackagePath": "staticwebassets\\lib\\bootbox\\bootbox.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\glightbox\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\glightbox\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\css\\LineIcons.3.0.css",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\css\\LineIcons.3.0.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\lineIcons\\fonts\\LineIcons.woff2",
+      "PackagePath": "staticwebassets\\lib\\lineIcons\\fonts\\LineIcons.woff2"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tiny-slider\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\langs\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\langs\\ar.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\langs\\en_CA.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\langs\\en_CA.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\langs\\readme.md",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\langs\\readme.md"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\bbcode\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\bbcode\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\css\\prism.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\colorpicker\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\colorpicker\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\css\\dialog.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\css\\dialog.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\buttons.png",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\buttons.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\icons.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\icons.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\items.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\items.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\menu_arrow.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\menu_arrow.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\menu_check.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\menu_check.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\progress.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\progress.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\img\\tabs.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\img\\tabs.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\tiny_mce_popup.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\tiny_mce_popup.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\utils\\editable_selects.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\utils\\editable_selects.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\utils\\form_utils.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\utils\\form_utils.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\utils\\mctabs.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\utils\\mctabs.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\compat3x\\utils\\validate.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\compat3x\\utils\\validate.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\contextmenu\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\contextmenu\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\fullpage\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullpage\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\help\\img\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\hr\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\hr\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\imagetools\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\imagetools\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\legacyoutput\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\legacyoutput\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\noneditable\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\noneditable\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\paste\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\paste\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\print\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\print\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\spellchecker\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\spellchecker\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\tabfocus\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\tabfocus\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\textcolor\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\textcolor\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\textpattern\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\textpattern\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\toc\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\toc\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\content.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\content.mobile.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\img\\anchor.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\img\\loader.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\img\\object.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\img\\trans.gif"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\skin.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\skins\\lightgray\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\lightgray\\skin.mobile.min.css"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\inlite\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\inlite\\theme.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\inlite\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\inlite\\theme.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\mobile\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\mobile\\theme.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\mobile\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\mobile\\theme.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\modern\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\modern\\theme.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\themes\\modern\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\modern\\theme.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\lib\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\_personal\\core2024\\MVC\\Souq\\Souq\\wwwroot\\sounds\\beep.mp3",
+      "PackagePath": "staticwebassets\\sounds\\beep.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Souq.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Souq.props",
+      "PackagePath": "build\\Souq.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Souq.props",
+      "PackagePath": "buildMultiTargeting\\Souq.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Souq.props",
+      "PackagePath": "buildTransitive\\Souq.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

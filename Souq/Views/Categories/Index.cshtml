@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Souq.Models.Category>
+@{
+    ViewData["Title"] = "Categories";
+}
+<div class="categories">
+    <h2>Categories</h2>
+    <p>
+        All Categories on Our Site You Can
+        <a href="/Categories/New" class="btn btn-success">Add New One</a>
+    </p>
+
+    <table class="table table-bordered">
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Actions</td>
+        </tr>
+
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>
+                    <a href="/Categories/Update/@category.Id" class="btn btn-primary">Update</a>
+                    <form action="/Categories/Remove" method="post">
+                        <input type="hidden" value="@category.Id">
+                        @Html.AntiForgeryToken()
+
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+
+    @if (Model.Count() is 0)
+    {
+        <p class="alert alert-danger">
+            <b>Sorry, we dont find any category on Our Database</b>
+        </p>
+    }
+
+</div>

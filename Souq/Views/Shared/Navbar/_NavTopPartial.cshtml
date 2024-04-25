@@ -1,0 +1,154 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> _signInManager
+@inject UserManager<ApplicationUser> _userManager
+
+<!-- Start Topbar -->
+<div class="topbar">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-start top-end d-xs-none">
+                    <ul class="user-login">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Privacy">Privacy</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/AboutUs">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-middle">
+                    <!-- Start Nav Social -->
+                    <div class="social text-center">
+                        <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+                        <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                        <a href="javascript:void(0)"><i class="lni lni-instagram"></i></a>
+                        <a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
+                    </div>
+                    <!-- End Nav Social -->
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-end">
+                    <ul class="user-login">
+                        @if (_signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Profile" title="My Account">
+                                    <i class="lni lni-user"></i> @User.Identity?.Name
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <form class="form-inline" asp-controller="Account" asp-action="LogOut">
+                                    <button type="submit" class="nav-link btn btn-link">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Account/Register">Register</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Account/Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Topbar -->
+@*@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> _signInManager
+@inject UserManager<ApplicationUser> _userManager
+
+<!-- Start Topbar -->
+<div class="topbar">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-left">
+                    <ul class="menu-top-link">
+                        <li>
+                            <div class="select-position">
+                                <select id="select4">
+                                    <option value="0" selected>$ USD</option>
+                                    <option value="1">€ EURO</option>
+                                    <option value="2">$ CAD</option>
+                                    <option value="3">₹ INR</option>
+                                    <option value="4">¥ CNY</option>
+                                    <option value="5">৳ BDT</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="select-position">
+                                <select id="select5">
+                                    <option value="0" selected>English</option>
+                                    <option value="1">Español</option>
+                                    <option value="2">Filipino</option>
+                                    <option value="3">Français</option>
+                                    <option value="4">العربية</option>
+                                    <option value="5">हिन्दी</option>
+                                    <option value="6">বাংলা</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-middle">
+                    <ul class="useful-links">
+                        <li><a href="/Home/Privacy">Privacy</a></li>
+                        <li><a href="/Home/AboutUs">About Us</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="top-end">
+                    <ul class="user-login">
+                        @if (_signInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Profile" title="My Account">
+                                    <i class="lni lni-user"></i> @User.Identity?.Name
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <form class="form-inline" asp-controller="Account" asp-action="LogOut">
+                                    <button type="submit" class="nav-link btn btn-link">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Account/Register">Register</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Account/Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Topbar -->*@

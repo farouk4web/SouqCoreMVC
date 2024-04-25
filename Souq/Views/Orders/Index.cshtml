@@ -1,0 +1,117 @@
+@model Souq.ViewModels.AllOrderViewModel
+@{
+    ViewData["Title"] = "All Orders";
+    Layout = "/Views/Dashboard/_DashboardLayout.cshtml";
+    var filtersGroup = new List<string>() { "all", "confirmed", "shipping", "delivered", "notPaidOff", "paidOff", "usingCashOnDelivery" };
+}
+
+<div class="userOrders">
+    @if (Model.Orders.Count() == 0)
+    {
+        <div class="alert alert-secondary">
+            <p class="lead">
+                sorry we dont find any order On Our DataBase
+            </p>
+        </div>
+    }
+    else
+    {
+        <div class="filters">
+            <form asp-action="Index" asp-controller="Orders" method="get">
+                <div class="row g-3">
+                    <div class="col-sm-3">
+                        <div class="form-floating mb-3">
+                            <input asp-for="Size" type="number" class="form-control" aria-label="PageSize">
+                            <label asp-for="Size">Page Size</label>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="form-floating mb-3">
+                            <select asp-for="Filter" asp-items="@(new SelectList(filtersGroup))" class="form-select" id="inlineFormSelectPref">
+                            </select>
+                            <label asp-for="Filter">Order Filter</label>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="form-floating mb-3">
+                            <input asp-for="PageNumber" type="number" class="form-control" aria-label="CurrentPageNumber">
+                            <label asp-for="PageNumber">Page Number</label>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <input type="submit" value="Filter " class="btn btn-outline-primary btn-lg m-1">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td scope="col">Order Id</td>
+                    <td scope="col"> Purchased On</td>
+                    <td scope="col">Status</td>
+                    <td scope="col">Actions</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.Orders)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.DateOfCreate</td>
+                        <td>
+                            @if (item.IsDelivered)
+                            {
+                                <span>Is Delivered</span>
+                            }
+                            else
+                            {
+                                <span>Pending</span>
+                            }
+                        </td>
+                        <td>
+                            <a href="/Orders/OrderDetails/@item.Id" class="btn btn-primary">View</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <nav aria-label="...">
+            <ul class="pagination">
+                @if (Model.PageNumber > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="/orders/index?filter=@Model.Filter&page=@(Model.PageNumber - 1)&size=@Model.Size">
+                            Previous
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                }
+
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">
+                        @Model.PageNumber
+                    </a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link" href="/orders/index?filter=@Model.Filter&page=@(Model.PageNumber + 1)&size=@Model.Size">
+                        Newer <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    }
+
+</div>
